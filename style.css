@@ -606,7 +606,7 @@ a:link {
 	#hero {
 		background-image: url(./img/hero-bg.png);
 		background-size: cover;
-		background-position: top right;
+		background-position: 0px;
 		position: relative;
 		z-index: 1;
 	}
