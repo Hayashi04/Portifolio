@@ -604,11 +604,7 @@ a:link {
 	}
 	
 	#hero {
-		background-image: url(./img/hero-bg.png);
-		background-size: cover;
-		background-position: 0px;
-		position: relative;
-		z-index: 1;
+		background-image: url("https://cdn.discordapp.com/attachments/933499827638124575/939553627780034621/wallpaper2.png");
 	}
 	/* End Hero */
 
