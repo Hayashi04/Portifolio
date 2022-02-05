@@ -572,7 +572,7 @@ a:link {
   
   /*Link já visitado*/
   a:visited {
-	color: rgb(20, 90, 220);
+	color: rgb(2, 74, 209);
 	text-decoration: none;
   }
   
@@ -601,6 +601,14 @@ a:link {
 	/* Hero */
 	#hero h1 {
 		font-size: 7rem;
+	}
+	
+	#hero {
+		background-image: url(./img/hero-bg.png);
+		background-size: cover;
+		background-position: top right;
+		position: relative;
+		z-index: 1;
 	}
 	/* End Hero */
 
