@@ -51,6 +51,7 @@ p {
 	color: white;
 	background-color: transparent;
 	border: 2px solid rgb(20, 90, 220);
+	border-radius: 10px;
 	font-size: 2rem;
 	text-transform: uppercase;
 	letter-spacing: 0.1rem;
