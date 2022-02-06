@@ -35,7 +35,7 @@ p {
 .section-title {
 	font-size: 4rem;
 	font-weight: 300;
-	color: rgb(255, 255, 255);
+	color: rgb(20, 90, 220);
 	margin-bottom: 10px;
 	text-transform: uppercase;
 	letter-spacing: 0.2rem;
@@ -70,6 +70,12 @@ p {
 }
 .brand h1 span {
 	color: rgb(20, 90, 220);
+}
+.brand h1:hover {
+	transition: 0.3s ease transform;
+}
+.brand h1:hover {
+	transform: scale(1.1);
 }
 
 
@@ -124,6 +130,7 @@ p {
 	text-transform: uppercase;
 	padding: 20px;
 	display: block;
+	transition: 0.3s ease color;
 }
 #header .nav-list ul a::after {
 	content: attr(data-after);
@@ -213,8 +220,6 @@ p {
 	position: absolute;
 	left: 0;
 	top: 0;
-	height: 100%;
-	width: 100%;
 	background-color: black;
 	opacity: 0.7;
 	z-index: -1;
@@ -270,7 +275,7 @@ p {
 #services .services {
 	flex-direction: column;
 	text-align: center;
-	background-color: black;
+	background-color: #141414;
 	margin: 0 auto;
 	padding: 100px 0;
 }
@@ -295,7 +300,8 @@ p {
 	padding: 30px;
 	border-radius: 10px;
 	background-image: url(./img/img-1.png);
-	box-shadow: 10px 10px 10px 0 #8383832c;
+	box-shadow: 10px 10px 10px 0 #6363632c;
+	transition: 0.3s ease box-shadow;
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -323,6 +329,7 @@ p {
 	border-radius: 10px;
 	background-image: url(./img/img-3.png);
 	box-shadow: 10px 10px 10px 0 #8383832c;
+	transition: 0.3s ease box-shadow;
 	background-size: cover;
 	margin: 10px 5%;
 	position: relative;
@@ -377,7 +384,7 @@ p {
 #projects .projects {
 	flex-direction: column;
 	margin: 0 auto;
-	background-color: black;
+	background-color: #141414;
 	padding: 100px 0;
 }
 #projects .projects-header h1 {
@@ -449,7 +456,7 @@ p {
 /* contact Section */
 #contact .contact {
 	flex-direction: column;
-	background-color: black;
+	background-color: 141414;
 	margin: 0 auto;
 	width: 100%;
 }
@@ -494,7 +501,7 @@ p {
 
 /* Footer */
 #footer {
-	background-image: linear-gradient(180deg, #000000 0%, #080808 100%);
+	background-image: linear-gradient(180deg, #141414 0%, #0e0e0e 100%);
 }
 #footer .footer {
 	min-height: 200px;
@@ -566,19 +573,19 @@ p {
 }
 /* End Keyframes *//*Link não visitado */
 a:link {
-	color: rgb(20, 90, 220);
+	color: rgb(73, 137, 255);
 	text-decoration: none;
   }
   
   /*Link já visitado*/
   a:visited {
-	color: rgb(2, 74, 209);
+	color: rgb(73, 137, 255);
 	text-decoration: none;
   }
   
   /*Quando o mouse passa por cima*/
   a:hover {
-	color: rgb(73, 137, 255);
+	color: rgb(20, 90, 220);
 	text-decoration: none;
   }
   
@@ -666,7 +673,7 @@ a:link {
 		flex-direction: column;
 		padding: 100px 0;
 		align-items: center;
-		background-color: black;
+		background-color: #141414;
 		justify-content: center;
 		min-width: 20vh;
 	}
@@ -674,7 +681,7 @@ a:link {
 		width: 100%;
 		display: flex;
 		flex-direction: row;
-		background-color: rgb(0, 0, 0);
+		background-color: #141414;
 		justify-content: space-evenly;
 		margin: 0;
 	}
