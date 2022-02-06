@@ -141,7 +141,7 @@ p {
 	background: -webkit-linear-gradient(rgba(240, 248, 255, 0.103), rgba(51, 51, 51, 0));
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
-	font-size: 6rem;
+	font-size: 5rem;
 	letter-spacing: 50px;
 	z-index: -1;
 	transition: 0.3s ease letter-spacing;
