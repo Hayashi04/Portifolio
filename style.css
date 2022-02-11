@@ -428,6 +428,16 @@ p {
 	overflow: hidden;
 	border-radius: 10px;
 }
+#projects .project-item4 {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	width: 100%;
+	margin: 20px auto;
+	overflow: hidden;
+	border-radius: 10px;
+}
 #projects .project-info {
 	padding: 30px;
 	flex-basis: 50%;
@@ -477,6 +487,9 @@ p {
 	transform: scale(1.1);
 }
 #projects .project-item3:hover .project-img img {
+	transform: scale(1.1);
+}
+#projects .project-item4:hover .project-img img {
 	transform: scale(1.1);
 }
 /* End Projects section */
@@ -685,7 +698,20 @@ a:link {
 	}
 	#projects .project-item3 {
 		height: 400px;
-		margin: 0;
+		margin: 35px;
+		width: 93%;
+		border-radius: 30px;
+		box-shadow: 10px 10px 10px 0 #0000002c;
+	}
+	#projects .project-item4 {
+		flex-direction: row;
+	}
+	#projects .project-item4:nth-child(even) {
+		flex-direction: row-reverse;
+	}
+	#projects .project-item4 {
+		height: 400px;
+		margin: 35px;
 		width: 93%;
 		border-radius: 30px;
 		box-shadow: 10px 10px 10px 0 #0000002c;
